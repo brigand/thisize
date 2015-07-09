@@ -1,0 +1,35 @@
+{
+  "name": "thisize",
+  "version": "0.1.0",
+  "description": "convert functions to methods",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "babel-tape-runner test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brigand/thisize.git"
+  },
+  "keywords": [
+    "es7",
+    "function",
+    "method",
+    "util"
+  ],
+  "author": "Frankie Bagnardi <f.bagnardi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brigand/thisize/issues"
+  },
+  "homepage": "https://github.com/brigand/thisize#readme",
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "babel-tape-runner": "^1.1.0",
+    "debug": "^2.2.0",
+    "lodash": "^3.10.0",
+    "tape": "^4.0.0"
+  }
+}
